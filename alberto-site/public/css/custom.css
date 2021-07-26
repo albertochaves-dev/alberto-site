@@ -1,0 +1,19 @@
+.hidden {
+    display: none;
+}
+.cursorBlink{
+    overflow:hidden;
+    animation:blink 1s steps(5,start) infinite
+}
+.fab, .far {
+    font-size: 40px;
+}
+@keyframes blink{from,to{color:transparent}50%{color:#FFFFFF}}
+@-moz-keyframes blink{from,to{color:transparent}50%{color:#FFFFFF}}
+@-webkit-keyframes blink{from,to{color:transparent}50%{color:#FFFFFF}}
+@-ms-keyframes blink{from,to{color:transparent}50%{color:#FFFFFF}}
+@-o-keyframes blink{from,to{color:transparent}50%{color:#FFFFFF}}
+
+body > #root > div {
+    height: 100vh;
+  }
