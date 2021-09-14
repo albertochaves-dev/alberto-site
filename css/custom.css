@@ -1,0 +1,151 @@
+.hidden {
+    display: none;
+}
+.cursorBlink{
+    overflow:hidden;
+    animation:blink 1s steps(5,start) infinite
+}
+.fab, .far {
+    font-size: 40px;
+}
+@keyframes blink{from,to{color:transparent}50%{color:#595bff}}
+@-moz-keyframes blink{from,to{color:transparent}50%{color:#595bff}}
+@-webkit-keyframes blink{from,to{color:transparent}50%{color:#595bff}}
+@-ms-keyframes blink{from,to{color:transparent}50%{color:#595bff}}
+@-o-keyframes blink{from,to{color:transparent}50%{color:#595bff}}
+
+body > #root > div {
+    height: 100vh;
+  }
+
+.copyright{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.copyright .highlight{
+    text-align: center;
+    color: #0091ca;
+    font-weight: bold;
+}
+
+#skills{
+    padding-bottom: 15rem;
+}
+
+.featurette {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 4.2rem;
+}
+.featurette-icon {
+    display: block;
+    width: 100%;
+    color: #0091ca;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+@media screen and (min-width: 576px){
+    .col-sm-4 {
+        flex: 0 0 33.33333333%;
+        max-width: 33.33333333%;
+    }
+}
+
+.bm-burger-button {
+    display: none;
+}
+
+/*Position and sizing of burger button*/
+@media screen and (max-width: 600px){
+    .bm-burger-button {
+        display: block;
+        float: right;
+        position: absolute;
+        width: 36px;
+        height: 30px;
+        left: 36px;
+        top: 36px;
+    }
+
+    /* Color/shape of burger icon bars */
+    .bm-burger-bars {
+    background: #373a47;
+    }
+
+    /* Color/shape of burger icon bars on hover*/
+    .bm-burger-bars-hover {
+    background: #a90000;
+    }
+
+    /* Position and sizing of clickable cross button */
+    .bm-cross-button {
+    height: 24px;
+    width: 24px;
+    }
+
+    /* Color/shape of close button cross */
+    .bm-cross {
+    background: #bdc3c7;
+    }
+
+    /*
+    Sidebar wrapper styles
+    Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+    */
+    .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+    }
+
+    /* General sidebar styles */
+    .bm-menu {
+    background: #373a47;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+    }
+
+    /* Morph shape necessary with bubble or elastic */
+    .bm-morph-shape {
+    fill: #373a47;
+    }
+
+    /* Wrapper for item list */
+    .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+    }
+
+    /* Individual item */
+    .bm-item {
+    display: inline-block;
+    }
+
+    /* Styling of overlay */
+    .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+    }
+}
+
+.icon {
+    font-size: 8rem;
+    color: #FFF;
+}
+
+
+@media screen and (max-width: 600px){
+	.about-content {
+		margin-left: 6vw !important; 
+	}
+
+    .about-content .info-list {
+        margin-bottom: 0px;
+    }
+}
